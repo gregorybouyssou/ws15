@@ -1,5 +1,5 @@
 .box{
-   background-color: blueviolet;
+   background-color:gray;
    height: 400px;
    width: 100%;
    margin-bottom: 20px;
@@ -12,17 +12,5 @@
    font-size: 250%;
 }
 
-.bubble{
-   position: relative;   
-   right:50px;   
-   background-color: forestgreen; 
-   text-align:center;   
-   width:200px;   
-   height:80px;  
-   border:2px solid #555555;
-   border-top-right-radius:80px 40px;
-   border-top-left-radius:80px 40px;
-   border-bottom-right-radius:80px 40px;
-   border-bottom-left-radius:80px 40px;
-}
+
 
