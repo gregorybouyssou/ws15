@@ -3,19 +3,50 @@ body{
    background-color: black;
 }
 
-
 .box{
-   background-color:gray;
+   background-color:rgba(128, 128, 128, 0.37);
+   margin: 20px;
+   padding: 20px;
    height: 400px;
    width: 100%;
-   margin-bottom: 20px;
-   padding: 20px;
-   border: 2px;
+   border-radius: 50px;
+   color: white;
 
 }
+
 
 .img{
    text-align: center;
    font-size: 250%;
+   margin-bottom: 10%;
 }
 
+.col-6{
+  
+   margin-bottom: 20%;
+}
+.col-5 {
+
+   margin-top: 10%;
+   
+}
+.col-7{
+   margin-top: 10%;
+}
+.col-12{
+   
+
+}
+.espace li{
+   margin-bottom: 10%;
+}
+.titre{
+   margin-bottom: 20%;
+}
+h2{
+   background-color:gray;
+   margin-bottom: 5%;
+   margin-top: 10%;
+   color: white;
+
+}
