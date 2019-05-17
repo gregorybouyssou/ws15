@@ -15,14 +15,28 @@ body{
 
 }
 
-
 .img{
    text-align: center;
    font-size: 250%;
    margin-bottom: 10%;
 }
+
+.col-4{
+   -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.col-4:hover{
+   -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 .col-6 .card{
    box-shadow: 4px 4px 20px grey;
+   font-size: 20px;
+   border-radius: 10%;
 }
 .col-6{
   
@@ -37,10 +51,7 @@ body{
 .col-7{
    margin-top: 10%;
 }
-.col-12{
-   
 
-}
 .espace li{
    margin-bottom: 10%;
 }
@@ -48,35 +59,33 @@ body{
    margin-bottom: 20%;
 }
 
-.box2{
-  
-  }
-
 h2{
-   background-color:gray;
    margin-bottom: 5%;
    margin-top: 10%;
    color: white;
    text-align: center;
-
-}
-.box1{
-   background-color: rgb(128, 128, 128, 0.103);
-}
-#site{
-   margin-left: 50px;
-  text-align: center;
 }
 
-#site img{
-margin: 4%;
-}
-#rgpd{
+h3{
    text-align: center;
 }
 
+.box1{
+   margin-bottom: 40px;
+}
 
+#site{
+   margin-left: 50px;
+   text-align: center;
+}
 
+#site img{
+   margin: 4%;
+}
+
+#rgpd{
+   text-align: center;
+}
 
 .webDev {
    width: 80%;
@@ -95,7 +104,6 @@ margin: 4%;
    border-radius: 3em;
    padding: 50px;
    box-shadow: 4px 4px 50px grey; 
-   
    width: 80%;
  }
  
@@ -122,3 +130,5 @@ margin: 4%;
  .speech-bubble p {
    font-size: 1.5em;
  }
+
+
