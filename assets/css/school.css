@@ -96,49 +96,6 @@ h3{
    text-align: center;
 }
 
-.webDev {
-   width: 80%;
-   background-image: url(none);
-   padding: 10em;
-   margin: auto;
- }
- 
- .webDev img {
-   width: 100%;
- }
-
- .speech-bubble {
-   position: relative;
-   background:whitesmoke;
-   border-radius: 3em;
-   padding: 50px;
-   box-shadow: 4px 4px 50px grey; 
-   width: 80%;
- }
- 
- .speech-bubble:after { 
-   content: ''; 
-   position: absolute;
-    left: 0; 
-    top: 50%; 
-    width: 0; 
-    height: 0; 
-    border: 49px solid transparent; 
-   border-right-color:whitesmoke;
-   border-left: 0;
-   border-bottom: 0;
-   margin-top: -24.5px;
-   margin-left: -49px;   
- }
- 
- .speech-bubble h2 {
-   color: #3178D0;
-   text-align: center;
- }
- 
- .speech-bubble p {
-    text-align: center;
-   font-size: 1.5em;
- }
-
-
+#Sec3{
+   background-color: gray;
+}
