@@ -1,0 +1,25 @@
+div{
+    height: 300px;
+    width: 300px;
+}
+
+#d1{
+    background-color: yellowgreen;
+    float: left;
+}
+#d2{
+    background-color: blue;
+    float: left;
+}
+#d3{
+    background-color: deeppink;
+    clear: both;
+}
+
+#container{
+    height: 600px;
+    width: 600px;
+    background-color: crimson
+}
+
+

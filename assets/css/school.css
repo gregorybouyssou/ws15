@@ -4,15 +4,19 @@ body{
 }
 
 .box{
-   background-color:rgb(128, 128, 128, 0.37);
+   background-color:#4D4D4D;
    margin: 20px;
    padding: 20px;
    height: 400px;
    width: 100%;
-   border-radius: 50px;
+   border-radius: 40px;
    color: white;
    box-shadow: 4px 4px 10px grey;
-
+}
+.img{
+   text-align: center;
+   font-size: 250%;
+   margin-bottom: 10%;
 }
 
 #img{
@@ -27,23 +31,26 @@ body{
 }
 #wps{
    float: left;
-margin-left: 60px;
+   margin-left: 60px;
+   margin-top: 40px;
 }
 #css{
    float: inline-end;
-margin-right: 60px;
+   margin-right: 60px;
 }
 
 .col-4{
    -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+
 }
 
 .col-4:hover{
    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
+   transform: scale(1.1);
+
 }
 
 .col-6 .card{
@@ -109,6 +116,26 @@ h3{
    text-align: center;
 }
 
+#Sec1{
+   background-color: #C4C3C3;
+   padding-left: 350px;
+   padding-right: 350px;
+}
+
+#Sec2{
+   background-color: #4D4D4D;
+   text-align: center;
+}
+
 #Sec3{
-   background-color: gray;
+   background-color: #2B2828;
+   padding-right: 350px;
+   padding-left: 350px;
+}
+
+.container1{
+   margin:auto;
+}
+.col-4a{
+   background-color: #C4C3C3;
 }
