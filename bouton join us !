@@ -1,0 +1,70 @@
+HTML !!!!!!!!!!!!!
+
+<section class="nousContacter">
+      <div class="joinus">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-9">
+
+            <p class="lead">
+              Cette formation vous interresse ?
+            </p>
+
+</div>
+
+
+          <div class="col-lg-3 col-md-9 col-sm-8">
+          <img src="assets/img/lulu sam contraste2.png" class="img-fluid" id="contactIMG" alt="">
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-9">
+            <a href="#" class="btn btn-lg" role="button">CONTACTEZ NOUS !</a>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+
+
+CSS !!!!!!!!!!!!!!!!!!
+
+
+
+.nousContacter {
+background-color: rgb(75, 75, 75);
+width: 100%;
+text-align: center;
+}
+
+.joinus {
+width: 80%;
+margin: auto;
+}
+
+#contactIMG {
+width: 100vh;
+float: left;
+}
+
+
+.lead {
+text-align: center;
+padding: 1em;
+color: white;
+font-size: 3.5em;
+}
+
+.btn {
+background-color: #2b2828;
+color: white;
+margin-bottom: 1em;
+}
+
+.btn:hover {
+background-color: orange;
+}

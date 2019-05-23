@@ -171,3 +171,42 @@ h3{
    margin-left: 0;
    margin-right: 0;
 }
+
+
+.nousContacter {
+   background-color: rgb(75, 75, 75);
+   width: 100%;
+   text-align: center;
+   }
+   
+.joinus {
+   width: 80%;
+   margin: auto;
+}
+   
+#contactIMG {
+   width: 100vh;
+   float: left;
+   margin-top: 5%;
+}
+   
+.lead {
+   text-align: center;
+   padding: 1em;
+   color: white;
+   font-size: 3.5em;
+}
+   
+.btn {
+   background-color: #2b2828;
+   color: white;
+   margin-bottom: 1em;
+}
+   
+.btn:hover {
+   background-color: orange;
+}
+
+#vide{
+   background-color: #4D4D4D
+}
