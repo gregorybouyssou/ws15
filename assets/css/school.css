@@ -54,8 +54,8 @@ body{
 }
 
 h2{
-   margin-bottom: 3%;
-   margin-top: 3%;
+   margin-bottom: 2%;
+   margin-top: 2%;
    color: white;
    text-align: center;
  
@@ -85,14 +85,18 @@ h3{
 #site{
    margin: 2%;
    text-align: center;
+   
 }
 
 #site img{
    margin: 4%;
+   margin-top: 1%;
+   margin-bottom: 1%
 }
 
 #rgpd{
    text-align: center;
+   
 }
 
 #Sec1{
@@ -144,21 +148,23 @@ h3{
 }
 
 #css{
-   margin-left: 200px;
-   margin-top: 50px;
+   margin-left: 45%;
+   margin-top: 20%;
 }
 
 #js{
-   margin-left: 180px;
-   margin-top: 200px;
+   margin-left: 40%;
+   margin-top: 50%;
 }
 
 #wps{
-   margin-top: 50px;
+   margin-top: 30%;
+   padding-left: 12%;
 }
 
 #php{
-   margin-top: 250px;
+   margin-top: 54%;
+   padding-left: 12%;
 }
 
 #jquery{
@@ -209,4 +215,24 @@ h3{
 
 #vide{
    background-color: #4D4D4D
+}
+#vide2{
+   background-color: #2B2828;
+   padding-bottom: 1%; 
+}
+#vide3{
+background-color: #C4C3C3;
+padding-bottom: 1%;
+}
+h6{
+   text-align: center;
+   color: white;
+   margin-bottom: 0;
+   padding-bottom: 1%;
+}
+.col-lg-6 a{
+   margin-right: 55%;
+}
+footer{
+   background-color: #2B2828;
 }
