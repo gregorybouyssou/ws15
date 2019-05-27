@@ -124,16 +124,23 @@ h3{
 #sec4{
    background-color: #C4C3C3;
 }
-#sec4 .col-5{
+.col-lg-5{
    padding-right:7%;
    padding-left: 7%;
    margin-top: 10%;
    margin-bottom: 10%;
 }
 
-.col-2{
+.col-md-6 {
+   
+}
+
+.col-lg-2{
    padding-left: 3%;
-   padding-top: 7%;
+   padding-top: 2%;
+}
+.col-md-0{
+   text-align: center;
 }
 
 #prog{
@@ -240,9 +247,10 @@ h6{
    margin-bottom: 0;
    padding-bottom: 1%;
 }
-.col-lg-6 a{
-   margin-right: 55%;
-}
 footer{
    background-color: black;
+}
+#col-lg-5  {
+   margin-top: 2%;
+   margin-bottom: 2%;
 }
