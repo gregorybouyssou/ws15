@@ -2,6 +2,10 @@ body{
    font-family: 'Roboto', sans-serif;
    background-color: black;
 }
+header{
+   background-color: #2B2828;
+   padding-bottom: 10%;
+}
 
 .box{
    background-color:rgb(77, 77, 77);
@@ -129,7 +133,7 @@ h3{
 
 .col-2{
    padding-left: 3%;
-   padding-top: 12%;
+   padding-top: 7%;
 }
 
 #prog{
@@ -145,6 +149,12 @@ h3{
 #html{
    margin-left: 25%;
    margin-top: 25%;
+   
+}
+#html:hover {
+  
+      
+   
 }
 
 #css{
@@ -168,9 +178,9 @@ h3{
 }
 
 #jquery{
-   margin-top: 50px;
-   margin-bottom: 200px;
-   margin-left: 120px;
+   margin-top: 20%;
+   margin-bottom: 20%;
+   margin-left: 28%;
 }
 
 .row{
@@ -234,5 +244,5 @@ h6{
    margin-right: 55%;
 }
 footer{
-   background-color: #2B2828;
+   background-color: black;
 }
