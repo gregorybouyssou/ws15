@@ -2,10 +2,6 @@ body{
    font-family: 'Roboto', sans-serif;
    background-color: black;
 }
-header{
-   background-color: #2B2828;
-   padding-bottom: 10%;
-}
 
 .box{
    background-color:rgb(77, 77, 77);
@@ -131,6 +127,7 @@ button.btn{
 }
 #headingOne{
    background-color: #2B2828;
+   margin-top: 0;
    }
 #headingTwo{
    background-color: #2B2828;
@@ -329,6 +326,16 @@ footer{
    margin-bottom: 2%;
 }
 
+#zootic{
+   font-weight: bold;
+   font-size: 200%;
+   color: whitesmoke;
+}
+
+#zootic:hover{
+   color: #F78C40;
+}
+
 @media only screen and (max-width: 380px){
    h3{
       font-size: 22px;
@@ -336,14 +343,93 @@ footer{
    .col-md-0 img{
       display: none;
    }
+   #Sec2{
+      display: none;
+   }
+   #Sec3{
+      display: none;
+   }
+   .mb-0 button{
+      margin-top: 0;
+   }
+}
 
-}
-}
 
 @media only screen and (max-width: 780px){
-  
-  
+
+   .mb-0 button{
+      margin-top: 0;
+   }
+ #img{
+      margin-left: 15%;
+      margin-top: 35%;
+   }
    }
 
-
+   h1 {
+      z-index: 1;
+      font-size: 40px;
+      color: whitesmoke;
+      position: absolute;
+      font-family: keep_calm;
+      top: 30px;
+      left: 50px;
+      text-shadow: 0.3em 0.3em 0.3em rgb(175, 104, 22);
+  }
+  caroussel img{
+      height: 95vh;
+  }
+  
+  nav {
+      height: 5vh;
+      background-color: #2B2828;
+      z-index: 1020;
+  }
+  
+  /*sticky header position*/
+  .sticky.is-sticky {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+  }
+  .nav-link .active {
+      color: orange;
+  }
+  
+  @media only screen and (min-width: 540px) and (max-width: 1140px) {
+      nav {
+          height: auto;
+          background-color: #2B2828;
+          z-index: 1020;
+      }
+  
+  }
+  
+  @media only screen and (max-width: 540px) {
+      nav {
+          height: auto;
+          background-color: #2B2828;
+          z-index: 1020;
+      }
+  }
+  @media only screen and (max-width: 1140px) {
+      h1 {
+          display: none;
+      }
+      .caroussel {
+          display: none;
+      }
+      #nav a {
+          color: whitesmoke;
+      }
+      #nav a:hover {
+          color: rgb(175, 104, 22) !important;
+      }
+      .media img {
+          display: none !important;
+      }
+  }
 

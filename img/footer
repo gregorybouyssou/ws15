@@ -1,0 +1,101 @@
+HTML
+
+
+
+    <footer>
+
+        <div class="container2">
+
+            <div class="row">
+
+                <div class="col-12">
+
+                    <div class="box1">
+                        <div id="site">
+                            <a href="https://www.aformac.fr/nos-centres/aformac-aurillac"><img src="aformac.png"
+                                    alt="logo"></a>
+
+                            <a href="https://www.accesscodeschool.fr/"><img src="ACcesS.jpg" alt="acs"></a>
+
+                            <a href="https://www.grandeecolenumerique.fr/"><img src="Logo-GEN.png" alt="gen"></a>
+
+                            <a href="https://www.auvergnerhonealpes.fr/"><img src="region.png" alt="region"></a>
+
+                            <a href="https://www.coworking-aurillac.fr/"><img src="la forge.png" alt="forge"></a>
+
+                            <a href="https://www.net15.fr"><img src="net15.png" alt="net15"></a>
+
+                            <a href="https://www.sitew.com"><img src="siteW.png" alt="siteW"></a>
+
+                            <a href="http://www.cocotte-numerique.fr/"><img src="cocotte.png" alt="cocotte"></a>
+
+                            <a href="https://catapulte.io/"><img src="catapulte.png" alt="catapulte"></a>
+
+                            <a href="http://zootic.fr" id="zootic">ZooTIC SAS</a>
+                        </div>
+
+                        <div id="rgpd">
+
+                            <a href="https://www.cnil.fr/fr/textes-officiels-europeens-protection-donnees"><img
+                                    src="rgpd.jpg" alt="rgpd"></a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div>
+            <h6>Copyright <i class="far fa-copyright"></i> 2019 by Web School 15</h6>
+        </div>
+    </footer>
+
+CSS
+
+
+
+.box1{
+   margin-bottom: 4%;
+}
+
+.box1 img{
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+}
+
+.box1 img:hover{
+   -webkit-filter: grayscale(0);
+   filter: grayscale(0);
+}
+
+#site{
+   margin: 2%;
+   text-align: center;
+   
+}
+
+#site img{
+   margin: 4%;
+   margin-top: 1%;
+   margin-bottom: 1%
+}
+
+#rgpd{
+   text-align: center;
+   
+}
+
+
+#zootic{
+   font-weight: bold;
+   font-size: 200%;
+   color: whitesmoke;
+}
+
+#zootic:hover{
+   color: #F78C40;
+}
