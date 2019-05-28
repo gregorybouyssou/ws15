@@ -207,40 +207,102 @@ button.btn{
    margin-right: 0;
 }
 
+/*debut bulle contact*/
 
 .nousContacter {
    background-color: rgb(75, 75, 75);
    width: 100%;
    text-align: center;
    }
+   #titre-bulle{
+      margin-bottom: 5%;
+      font-size: 50px;
+   }
+   @media screen and (max-width: 780px) {
+      #titre-bulle{
+         font-size: 48px;
+
+      }
+   }
+   @media screen and (max-width: 380px) {
+      #titre-bulle{
+         font-size: 250%;
+      }
+   }
+   .joinus {
+     width: 80%;
+     padding-top: 10em;
+     padding-bottom: 10em;
+     margin: auto;
+   }
    
-.joinus {
-   width: 80%;
-   margin: auto;
-}
+   .speech-bubbleJoin {
+       position: relative;
+       background: white;
+       border-radius: 3em;
+       padding: 2em;
+       box-shadow: 4px 4px 100px white;
+       width: 100%;
+       height: auto;
+       
+     }
+     
+     .speech-bubbleJoin:after { 
+       content: ''; 
+       position: absolute;
+        right: 0; 
+        top: 30%; 
+        width: 0; 
+        height: 0; 
+        border: 60px solid transparent; 
+       border-left-color: white;
+       border-right: 0;
+       border-bottom: 0;
+       margin-top: -24.5px;
+       margin-right: -49px;   
+     }
    
-#contactIMG {
-   width: 100vh;
-   float: left;
-   margin-top: 5%;
-}
+     
+     @media screen and (max-width: 780px) {
+       .speech-bubbleJoin:after {
+         content: ''; 
+         position: absolute;
+          right: 0; 
+          top: 20%; 
+          width: 0; 
+          height: 0; 
+          border: 60px solid transparent; 
+         border-left-color: white;
+         border-right: 0;
+         border-bottom: 0;
+         margin-top: -24.5px;
+         margin-right: -49px; 
+     }
+   }
    
-.lead {
-   text-align: center;
-   padding: 1em;
-   color: white;
-   font-size: 3.5em;
-}
+     @media screen and (max-width: 380px) {
+       .speech-bubbleJoin:after {
+         display: none;
+     }
+   }
+   
+     @media screen and (max-width: 380px) {
+       .speech-bubbleJoin {
+         margin-bottom: 3em;
+     }
+   }
    
 .btn {
    background-color: #2b2828;
    color: white;
+   margin-top: 1em;
    margin-bottom: 1em;
 }
    
 .btn:hover {
    background-color: orange;
 }
+/*fin bulle contact*/
 
 #vide{
    background-color: #4D4D4D
@@ -267,8 +329,21 @@ footer{
    margin-bottom: 2%;
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 380px){
    h3{
       font-size: 22px;
    }
+   .col-md-0 img{
+      display: none;
+   }
+
 }
+}
+
+@media only screen and (max-width: 780px){
+  
+  
+   }
+
+
+
