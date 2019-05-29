@@ -89,19 +89,6 @@ CSS
    
 }
 
-h6{
-   text-align: center;
-   color: white;
-   margin-bottom: 0;
-   padding-bottom: 1%;
-}
-footer{
-   background-color: black;
-}
-#col-lg-5  {
-   margin-top: 2%;
-   margin-bottom: 2%;
-}
 
 #zootic{
    font-weight: bold;
@@ -112,4 +99,3 @@ footer{
 #zootic:hover{
    color: #F78C40;
 }
-

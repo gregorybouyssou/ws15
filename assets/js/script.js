@@ -22,4 +22,5 @@ function pourcentage(pourcentage, var2,){
     } else {
         navbar.classList.add("sticky", "is-sticky") 
     }
+   
   }
