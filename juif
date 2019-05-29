@@ -1,0 +1,181 @@
+html 
+        <header class="bg-dark">
+            <!-- titre  -->
+            <div class="row text-center">
+                <div class="col-sm-12 col-12">
+                    <h1>Web-school-15</h1>
+                </div>
+            </div>
+            <!-- carroussel -->
+            <div class="container-w-100">
+                <div class="caroussel">
+                    <div class="bd-example">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/group_loutre.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption">
+                                        <p>Notre formation vous interesse ?<br>
+                                            Rejoignez nous,
+                                        </p>
+                                        <p> Contactez notre centre de formation afin de nous rejoindre pour la
+                                            prochaine
+                                            session ! </p>
+                                        <a class="btn btn-dark btn-lg" href="#" role="button">En savoir plus</a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/pc.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption">
+                                        <p>Devenez developpeur web</p>
+                                        <p>Vous souhaiter changer de vie ? <br>
+                                            N’hésitez plus, de nouveaux horizons s’offrent à vous, dans un secteur qui
+                                            recrute !</p>
+                                        <a class="btn btn-dark btn-lg" href="#" role="button">En savoir plus</a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/cascade.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption">
+                                        <p>Adopte un dev ! </p>
+                                        <p>Vous cherchez un dev web pour votre entreprise ou pour un projet
+                                            personnel?<br>
+                                            Venez consulter les CV de nos stagiaires!</p>
+                                        <a class="btn btn-dark btn-lg" href="#" role="button">En savoir plus</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--navigation-->
+            <div id="nav" class="">
+                <nav class="navbar navbar-expand-lg navbar-light top-navbar" data-toggle="sticky-onscroll">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">Web-school-15</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav pull-right">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Métier</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Projets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Formation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+CSS
+h1 {
+    z-index: 1;
+    font-size: 40px;
+    color: whitesmoke;
+    position: absolute;
+    font-family: keep_calm;
+    top: 30px;
+    left: 50px;
+    text-shadow: 0.3em 0.3em 0.3em rgb(175, 104, 22);
+}
+caroussel img{
+    height: 95vh;
+}
+
+nav {
+    height: 5vh;
+    background-color: #2B2828;
+    z-index: 1020;
+}
+
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.nav-link .active {
+    color: orange;
+}
+
+@media only screen and (min-width: 540px) and (max-width: 1140px) {
+    nav {
+        height: auto;
+        background-color: #2B2828;
+        z-index: 1020;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+    nav {
+        height: auto;
+        background-color: #2B2828;
+        z-index: 1020;
+    }
+}
+@media only screen and (max-width: 1140px) {
+    h1 {
+        display: none;
+    }
+    .caroussel {
+        display: none;
+    }
+    #nav a {
+        color: whitesmoke;
+    }
+    #nav a:hover {
+        color: rgb(175, 104, 22) !important;
+    }
+    .media img {
+        display: none !important;
+    }
+}
+
+
+JS
+
+function pourcentage(pourcentage, var2,){
+    return var2 * (pourcentage/100)
+}
+  
+  
+  //sticky navbar//////////////////////////////////////////////////////////////
+  
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("nav");
+  var sticky = navbar.offsetTop;
+  var windowWidth = window.innerWidth
+  
+  
+  function myFunction() {
+    if(windowWidth > 1140){
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky", "is-sticky")
+      } else {
+        navbar.classList.remove("sticky","is-sticky");
+      }
+    } else {
+        navbar.classList.add("sticky", "is-sticky") 
+    }
+  } 
